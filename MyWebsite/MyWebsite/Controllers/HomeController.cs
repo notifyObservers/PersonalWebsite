@@ -10,6 +10,7 @@ namespace MyWebsite.Controllers
 {
     public class HomeController : Controller
     {
+        // The default page to display
         public IActionResult Index()
         {
             return View();
@@ -28,6 +29,18 @@ namespace MyWebsite.Controllers
 
             return View();
         }
+
+        public IActionResult Course()
+        {
+            return View();
+        }
+       /* public IActionResult WWOnly(string studentID)
+        {
+            if (studentID != "20721570")
+            {
+            }
+            return View();
+        } */
 
         public IActionResult Privacy()
         {

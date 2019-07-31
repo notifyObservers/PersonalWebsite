@@ -58,6 +58,14 @@ namespace MyWebsite
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            /* Special access provided to WW recruiter
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "WWOnly",
+                    template: "resume/{studentID}");
+            }); */
         }
     }
 }
