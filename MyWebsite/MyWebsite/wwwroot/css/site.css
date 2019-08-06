@@ -54,3 +54,7 @@ body {
     border-bottom: 2px solid hsl(0,0%,17%); 
     /*transform:rotate(-45deg);*/
 }
+
+.courseDescription {
+    display: none;
+}
