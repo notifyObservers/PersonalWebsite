@@ -9,105 +9,207 @@
             <div class="col-md-4 col-lg-4 col-sm-1">
                 <h4><b>CS Courses</b></h4>
                 <img class="img-responsive" src="~/images/cs.jpg" alt="coding image">
-                <button class="info" id="CS240-button" onclick="displayDetail('CS240')">CS 240</button>
-                <div class="courseDescription" id="CS240">
-                    <h3>Data Structures and Data Management</h3>
-                    <p>
-                        Introduction to widely used and effective methods of data organization, focusing on data structures, their algorithms, 
-                        and the performance of these algorithms. 
-                        Specific topics include priority queues, sorting, dictionaries, data structures for text processing.
-                    </p>
-                </div>
-                <button class="info" id="CS246-button" onclick="displayDetail('CS246')">CS 246</button>
-                <div class="courseDescription" id="CS246">
-                    <h3> Object Oriented Programming </h3>
-                    <p>
-                        Introduction to object-oriented programming and to tools and techniques for software development.
-                        Designing, coding, debugging, testing, and documenting medium-sized programs: <br />
-                        reading specifications and designing software to implement them; selecting appropriate data structures and
-                        control structures; writing reusable code; reusing existing code; basic performance issues;
-                        debuggers; test suites.
-                    </p>
-                </div>
-                <button class="info" id="CS241" onclick="displayDetail('CS241')">CS 241</button>
-                <div class="courseDescription" id="CS241">
-                    <h3>Foundations of Sequential Programs</h3>
-                    <p>
-                        The relationship between high-level languages and the computer architecture that underlies their implementation,
-                        including basic machine architecture, assemblers, specification and translation of programming languages, linkers and loaders,
-                        block-structured languages, parameter passing mechanisms, and comparison of programming languages.
-                    </p>
-                </div>
-                <button class="info">CS 251</button>
-                <button class="info">CO 250</button>
+                <ul class="nav nav-pills nav-stacked">
+                    <li>
+                        <button class="btn btn-success" id="CS240-button" onclick="displayDetail('CS240')">CS 240 - Data Structures and Data Management</button>
+                        <div class="courseDescription" id="CS240">
+                            <h3>Data Structures and Data Management</h3>
+                            <p>
+                                Introduction to widely used and effective methods of data organization, focusing on data structures, their algorithms,
+                                and the performance of these algorithms.
+                                Specific topics include priority queues, sorting, dictionaries, data structures for text processing.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="CS246-button" onclick="displayDetail('CS246')">CS 246</button>
+                        <div class="courseDescription" id="CS246">
+                            <h3> Object Oriented Programming </h3>
+                            <p>
+                                Introduction to object-oriented programming and to tools and techniques for software development.
+                                Designing, coding, debugging, testing, and documenting medium-sized programs: <br />
+                                reading specifications and designing software to implement them; selecting appropriate data structures and
+                                control structures; writing reusable code; reusing existing code; basic performance issues;
+                                debuggers; test suites.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="CS241-button" onclick="displayDetail('CS241')">CS 241</button>
+                        <div class="courseDescription" id="CS241">
+                            <h3>Foundations of Sequential Programs</h3>
+                            <p>
+                                The relationship between high-level languages and the computer architecture that underlies their implementation,
+                                including basic machine architecture, assemblers, specification and translation of programming languages, linkers and loaders,
+                                block-structured languages, parameter passing mechanisms, and comparison of programming languages.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="CS251-button" onclick="displayDetail('CS251')">CS 251</button>
+
+                        <div class="courseDescription" id="CS251">
+                            <h3>Computer Organization and Design</h3>
+                            <p>
+                                Overview of computer organization and performance. Basics of digital logic design. Combinational and sequential elements.
+                                Data representation and manipulation. Basics of processor design. Pipelining. Memory hierarchies. Multiprocessors.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="CO250-button" onclick="displayDetail('CO250')">CO 250</button>
+                        <div class="courseDescription" id="CO250">
+                            <h3>Computer Organization and Design</h3>
+                            <p>
+                                A broad introduction to the field of optimization, discussing applications and solution techniques. Mathematical models for real life applications;
+                                algorithms; aspects of computational complexity; geometry; linear programming duality, focusing on the development of algorithms.
+                            </p>
+                        </div>
+                    </li>
+                </ul>             
+               
             </div>
-            </div>
+        </div>
         <div class="card">
             <div class="col-md-4 col-lg-4 col-sm-1">
                 <h4><b>Math and Stat Courses</b></h4>
                 <img class="img-responsive" src="~/images/math.jpeg" alt="math equation">
-                <button class="info" id="MATH235-button" onclick="displayDetail('MATH235')">Math 235</button>
-                <div class="courseDescription" id="MATH235">
-                    <h3>Linear Algebra 2 for Honours Mathematics</h3>
-                    <p>
-                        Orthogonal and unitary matrices and transformations. Orthogonal projections, Gram-Schmidt procedure,
-                        best approximations, least-squares. Inner products, angles and orthogonality, orthogonal diagonalization,
-                        singular value decomposition, applications.
-                    </p>
-                </div>
-                <button class="info" id="MATH237-button" onclick="displayDetail('MATH237')">Math 237</button>
-                <div class="courseDescription" id="MATH237">
-                    <h3>Calculus 3 for Honours Mathematics</h3>
-                    <p>
-                        Calculus of functions of several variables. Limits, continuity, differentiability, the chain rule.
-                        The gradient vector and the directional derivative. Taylor's formula. Optimization problems.
-                        Mappings and the Jacobian. Multiple integrals in various co-ordinate systems.
-                    </p>
-                </div>
-                <button class="info" id="MATH239-button" onclick="displayDetail('MATH239')">Math 239</button>
-                <div class="courseDescription" id="MATH239">
-                    <h3>Introduction to Combinatorics</h3>
-                    <p>
-                        Introduction to graph theory: colourings, matchings, connectivity, planarity.
-                        Introduction to combinatorial analysis: generating series, recurrence relations, binary strings, plane trees.
-                    </p>
-                </div>
-                <button class="info" id="STAT341-button" onclick="displayDetail('STAT341')">Stat 341</button>
-                <div class="courseDescription" id="STAT341">
-                    <h3>Computational Statistics and Data Analysiss</h3>
-                    <p>
-                        Approximation and optimization of noisy functions. Simulation from univariate and multivariate distributions,
-                        multivariate normal distribution, mixture distributions and introduction to Markov Monte Carlo.
-                        Introduction to supervised statistical learning including discrimination methods
-                    </p>
-                </div>
-                <button class="info" id="STAT331-button"onclick="displayDetail('STAT331')">Stat 331</button>
-                <div class="courseDescription" id="STAT331">
-                    <h3>Applied Linear Models</h3>
-                    <p>
-                        Modeling the relationship between a response variable and several explanatory variables (an output-input system) 
-                        via regression models. Least squares algorithm for estimation of parameters. Hypothesis testing and prediction.
-                        Model diagnostics and improvement. 
-                        Algorithms for variable selection. Nonlinear regression and other methods.
-                    </p>
-                </div>
+                <ul class="nav nav-pills nav-stacked">
+                    <li>
+                        <button class="btn btn-success" id="MATH235-button" onclick="displayDetail('MATH235')">Math 235 - Linear Algebra 2</button>
+                        <div class="courseDescription" id="MATH235">
+                            <h3>Linear Algebra 2 for Honours Mathematics</h3>
+                            <p>
+                                Orthogonal and unitary matrices and transformations. Orthogonal projections, Gram-Schmidt procedure,
+                                best approximations, least-squares. Inner products, angles and orthogonality, orthogonal diagonalization,
+                                singular value decomposition, applications.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="MATH237-button" onclick="displayDetail('MATH237')">Math 237</button>
+                        <div class="courseDescription" id="MATH237">
+                            <h3>Calculus 3 for Honours Mathematics</h3>
+                            <p>
+                                Calculus of functions of several variables. Limits, continuity, differentiability, the chain rule.
+                                The gradient vector and the directional derivative. Taylor's formula. Optimization problems.
+                                Mappings and the Jacobian. Multiple integrals in various co-ordinate systems.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="MATH239-button" onclick="displayDetail('MATH239')">Math 239</button>
+                        <div class="courseDescription" id="MATH239">
+                            <h3>Introduction to Combinatorics</h3>
+                            <p>
+                                Introduction to graph theory: colourings, matchings, connectivity, planarity.
+                                Introduction to combinatorial analysis: generating series, recurrence relations, binary strings, plane trees.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="STAT341-button" onclick="displayDetail('STAT341')">Stat 341</button>
+                        <div class="courseDescription" id="STAT341">
+                            <h3>Computational Statistics and Data Analysiss</h3>
+                            <p>
+                                Approximation and optimization of noisy functions. Simulation from univariate and multivariate distributions,
+                                multivariate normal distribution, mixture distributions and introduction to Markov Monte Carlo.
+                                Introduction to supervised statistical learning including discrimination methods
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="STAT331-button" onclick="displayDetail('STAT331')">Stat 331</button>
+                        <div class="courseDescription" id="STAT331">
+                            <h3>Applied Linear Models</h3>
+                            <p>
+                                Modeling the relationship between a response variable and several explanatory variables (an output-input system)
+                                via regression models. Least squares algorithm for estimation of parameters. Hypothesis testing and prediction.
+                                Model diagnostics and improvement.
+                                Algorithms for variable selection. Nonlinear regression and other methods.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="card">
-            <div class="col-md-4 col-lg-4 col-sm-1">
+            <div class="col-md-6 col-lg-4 col-sm-12">
                 <h4><b>Other Courses</b></h4>
                 <img class="img-responsive" src="~/images/other.png" alt="other courses">
-                <p>Japan 101</p>
-                <p>Japan 102</p>
-                <p>Econ 101</p>
-                <p>Econ 102</p>
-                <p>HRM 200</p>
+                <ul class="nav nav-pills nav-stacked">
+                    <li>
+                        <button class="btn btn-success" id="JAP101-button" onclick="displayDetail('JAP101')">Japan 101R - First Year Japanese 1</button>
+                        <div class="courseDescription" id="JAP101">
+                            <h3>First Year Japanese 1</h3>
+                            <p>
+                                An introductory course for students who have little or no knowledge of Japanese to develop basic listening, speaking, reading, and writing skills.
+                                Practical oral and written exercises incorporating the Hiragana Writing System provide a firm grammatical foundation for further study.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="JAP102-button" onclick="displayDetail('JAP102')">Japan 102R</button>
+                        <div class="courseDescription" id="JAP102">
+                            <h3>First Year Japanese 2</h3>
+                            <p>
+                                Listening, speaking, reading, and writing skills acquired in JAPAN 101R are further developed. Practical oral and written exercises incorporating 
+                                the Katakana Writing System are used to develop a more solid grammatical base.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="ECON101-button" onclick="displayDetail('ECON101')">&nbsp;&nbsp;Econ 101&nbsp;&nbsp;</button>
+                        <div class="courseDescription" id="ECON101">
+                            <h3>Introduction to Microeconomics</h3>
+                            <p>
+                                This course provides an introduction to microeconomic analysis relevant for understanding the Canadian economy.
+                                The behaviour of individual consumers and producers, the determination of market prices for commodities and resources, and the role of government policy
+                                in the functioning of the market system are the main topics covered.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="ECON102-button" onclick="displayDetail('ECON102')">&nbsp;&nbsp;Econ 102&nbsp;&nbsp;</button>
+                        <div class="courseDescription" id="ECON102">
+                            <h3>Introduction to Macroeconomics</h3>
+                            <p>
+                                This course introduces students to the measurement and behaviour of key macroeconomic variables both in Canada and around the world. 
+                                Topics include national accounts, inflation, interest rates, wages, international balance of payments, business cycles, growth, employment,
+                                unemployment, poverty, and inequality.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-success" id="HRM200-button" onclick="displayDetail('HRM200')">&nbsp;&nbsp;HRM 200&nbsp;&nbsp;</button>
+                        <div class="courseDescription" id="HRM200">
+                            <h3>Basic Human Resources Management</h3>
+                            <p>
+                                Examines the major areas of human resources administration including recruiting, salary administration, labour relations, benefits administration, 
+                                employee relations, labour law, and organizational behaviour. Reviews the role of human resources administration in organizations and the manner in
+                                which human resources executives contribute to the well-being of a total enterprise
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
+<style>
+   .courseDescription {
+       display: none;
+   }
+</style>
+
 <script type="text/javascript">
     function displayDetail(courseid) {
-        document.getElementById(courseid).toggle();
+        var visibility = document.getElementById(courseid).style.display;
+        if (visibility == "block") {
+            document.getElementById(courseid).style.display = "none";
+        } else {
+            document.getElementById(courseid).style.display = "block";
+        }
+
     }
 </script>
